@@ -50,7 +50,8 @@
     <p class="fs-5 col-md-8"></p>
     
     <?php
-    echo getenv("servername");
+    getenv("servername");
+    phpinfo( );
 
     ?>
     
