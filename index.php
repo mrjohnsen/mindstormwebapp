@@ -50,8 +50,7 @@
     <p class="fs-5 col-md-8"></p>
     
     <?php
-    getenv("servername");
-    phpinfo( );
+    getenv("MYSQLCONNSTR_servername");
 
     ?>
     
