@@ -48,7 +48,11 @@
   <main>
     <h1>Yes</h1>
     <p class="fs-5 col-md-8"></p>
+    
+    <?php
+    echo getenv("servername");
 
+    ?>
     
     <hr class="col-3 col-md-2 mb-5">
 
